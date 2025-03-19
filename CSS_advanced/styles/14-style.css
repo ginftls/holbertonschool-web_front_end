@@ -399,17 +399,20 @@ a {
   text-decoration: none;
 }
 
-a:link, 
-a:visited {
-  font-style: italic; /* Italicize the text */
+a[href] {
+  text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline; /* Add underline on hover */
+a[href]:visited {
+  font-style: italic;
 }
 
-a:active {
-  background-color: var(--color-light-grey); /* Set background color to light grey */
+a[href]:hover {
+  text-decoration: underline;
+}
+
+a[href]:active {
+  background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
