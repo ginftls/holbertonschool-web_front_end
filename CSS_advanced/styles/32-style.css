@@ -733,12 +733,6 @@ ul.row {
   z-index: -1; 
 }
 
-/* Custom Properties */
-:root {
-  --transition-duration: .3s; /* Name: transition-duration, Value: .3s */
-  --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01); /* Name: transition-cubic-bezier, Value: cubic-bezier(0.17, 0.67, 0, 1.01) */
-}
-
 /* Transformations on the card work */
 
 /* Target the card-image when card-work is hovered */
