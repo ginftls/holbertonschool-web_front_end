@@ -427,7 +427,7 @@ a[href]:active {
   display: none;
 }
 
-.card-category {
+.card-category, .section-tagline {
   color: var(--color-primary);
 }
 
@@ -450,7 +450,6 @@ a[href]:active {
 }
 
 .section-tagline {
-  color: var(--color-primary);
   font-family: var(--font-family-title); 
   text-transform: var(--section-tagline-transform); 
   font-weight: var(--font-weight-bold); 
