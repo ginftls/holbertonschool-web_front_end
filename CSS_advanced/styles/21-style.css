@@ -492,10 +492,9 @@ ul.row {
  list-style: none;
 }
 
-/* General rule for all col-* classes */
 [class^="col-"] {
- float: left; /* Float to the left */
- padding: calc(0.5rem / 2); /* Half of the root element's font size */
+  float: left;
+  padding: 0.5rem;
 }
 
 /* Specific col-* classes (remove redundant properties) */
